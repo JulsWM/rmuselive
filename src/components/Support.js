@@ -9,7 +9,7 @@ class Support extends Component {
         <h5 className="title mb-4 font-bold">WHO WE ARE</h5>
         <p>
           Do have a question? Here you can get support for any issues you in
-          counter.
+          counter. 
         </p>
         {/* <button
             className="btn btn-lg btn-primary pull-xs-right"

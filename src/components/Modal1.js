@@ -33,11 +33,11 @@ import {
   
     render() {
       return (
-        <div>
+        <div className="modal1-signup">
           <Modal isOpen={this.state.isOpen} onRequestHide={this.hideModal}>
             <ModalHeader>
               <ModalClose onClick={this.hideModal} />
-              <ModalTitle>Welcome to RmuseLive</ModalTitle>
+              <ModalTitle>RmuseLive</ModalTitle>
             </ModalHeader>
             <ModalBody>
               {/* <SignupSettings /> */}
@@ -48,7 +48,7 @@ import {
               <button className="btn btn-default" onClick={this.hideModal}>
                 Close
               </button>
-              <button className="btn btn-primary">Save changes</button>
+              <button className="btn btn-primary">Submit</button>
             </ModalFooter>
           </Modal>
           

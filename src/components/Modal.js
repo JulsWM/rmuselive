@@ -32,11 +32,11 @@ class ModalLogin extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="modal-header">
         <Modal isOpen={this.state.isOpen} onRequestHide={this.hideModal}>
           <ModalHeader>
             <ModalClose onClick={this.hideModal} />
-            <ModalTitle>Welcome to RmuseLive</ModalTitle>
+            <ModalTitle>RmuseLive</ModalTitle>
           </ModalHeader>
           <ModalBody>
             <LoginForm />
