@@ -10,6 +10,7 @@ import Support from "./components/Support";
 import User from "./components/User";
 import FAQ from "./components/FAQ";
 
+
 class App extends Component {
   render() {
     return (
@@ -25,6 +26,8 @@ class App extends Component {
               <Route path="/support" component={Support} />
               <Route path="/User" component={User} />
               <Route path="/faq" component={FAQ} />
+              {/* <Route path="/signup" component={SIGNUP} />
+              <Route path="/login" component={LOGIN} /> */}
             </Switch>
           </div>
         </Router>

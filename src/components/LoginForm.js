@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import { Button } from "react-bootstrap";
 // import bootstrap from "react-bootstrap";
-
+// import Auth from "./components/reducers/Auth";
 // import LoginSettings from "./src/components/User/Settings";
 const ROOT_URL = "https://rmuse.live/api/1/login";
 
@@ -26,13 +26,17 @@ this.setState({
  };
 
 handleOnSubmit = event => {
-  fetch(ROOT_URL)
+  fetch(ROOT_URL,)
   .then(results => {
     return results.json();
 }).then(data => {})
-event.preventDefault();
+// event.preventDefault();
 // this.props.onSubmit(this.state.email, this.state.password);
  };
+//  submitForm = event => {
+//   event.preventDefault();
+//   const { username, email, password } = this.state;
+//  };
     render() {
         return (
           // {/* <div> */}
@@ -59,7 +63,7 @@ event.preventDefault();
       Check me out
     </label> */}
   </div>
-  <button type="submit" className="btn btn-primary">Submit</button>
+  
 </form>
 <div>
                <br/>
@@ -72,7 +76,7 @@ event.preventDefault();
                  <br/>
                  <Button label="Submit" primary={true} onClick= 
                  {(event) =>  event.preventDefault() && 
-                 fetch(ROOT_URL).then(response => console.log(response))} />
+                 fetch(ROOT_URL).then(response => console.log(response))}>LOGIN</Button>
                    {/* this.handleClick(event)} /> */}
             
           </div>

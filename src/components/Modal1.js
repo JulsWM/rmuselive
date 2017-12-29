@@ -48,7 +48,7 @@ import {
               <button className="btn btn-default" onClick={this.hideModal}>
                 Close
               </button>
-              <button className="btn btn-primary">Submit</button>
+            
             </ModalFooter>
           </Modal>
           
