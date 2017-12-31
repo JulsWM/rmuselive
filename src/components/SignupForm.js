@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // import { render } from "react-dom";
 import { Button } from 'react-bootstrap';
 
-const ROOT_URL = "httpswq://rmuse.live/api/1/user";
+const ROOT_URL = "https://rmuse.live/api/1/user";
 
 // const payload = Signup(username, email, password);
 
@@ -26,7 +26,7 @@ class SignupForm extends Component {
     handleOnSubmit = event => {
         fetch(ROOT_URL, { method: 'POST',
         headers: {
-            'Appept': 'application/json',
+            'Accept': 'application/json',
             'Content-Type': 'application/json',
         },
         body: JSON.stringify(this.state)
@@ -65,7 +65,7 @@ render() {
        />
        <br/>
        <Button label="Submit" primary={true} onClick={(event) =>
-           this.handleClick(event)}> Submit</Button>
+           this.handleOnSubmit(event)}> Submit</Button>
            </div>
            </div>
     );

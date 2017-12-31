@@ -177,6 +177,38 @@ class Home extends Component {
                 <p className="text-justify">Picture</p>
               </Col>
               </Row>
+              <h2 className="text-left">Events</h2>
+            <Row>
+              <Col sm={4}>
+                {/* <img /> */}
+                <p className="text-justify">Downtown Mesa Festival of the Arts</p>
+                <p className="text-justify">When: Oct 7 - Apr 21</p>
+                <p className="text-justify">Where: Mesa, AZ</p>
+                <a href="https://www.visitarizona.com/events/fairs-and-festivals/downtown-mesa-festival-of-the-arts">Details</a>
+              </Col>
+              <Col sm={4}>
+                {/* <img /> */}
+                <p className="text-justify">2ND Annual Chandler International Film Festival</p>
+                <p className="text-justify">When: Jan 12 - Jan 15</p>
+                <p className="text-justify">Where: Chandler, AZ</p>
+                <a href="https://www.visitarizona.com/events/fairs-and-festivals/2nd-annual-chandler-international-film-festival">Details</a>
+                
+              </Col>
+              <Col sm={4}>
+                {/* <img /> */}
+                <p className="text-justify">59th Annual Tubac Festival of the Arts</p>
+                <p className="text-justify">When: Feb 7 - Feb 11</p>
+                <p className="text-justify">Where: Mesa, AZ</p>
+                <a href="https://www.visitarizona.com/events/fairs-and-festivals/59th-annual-tubac-festival-of-the-arts">Details</a>
+              </Col>
+              <Col sm={4}>
+                {/* <img /> */}
+                <p className="text-justify">ASU Writer's Craft Conference 2018</p>
+                <p className="text-justify">When: Jan 27</p>
+                <p className="text-justify">Where: Tempe, AZ</p>
+                <a href="https://www.eventbrite.com/e/asu-writers-craft-conference-2018-tickets-41156921460">Details</a>
+              </Col>
+              </Row>
           </Grid>
           
        

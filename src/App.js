@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 import Support from "./components/Support";
 import User from "./components/User";
 import FAQ from "./components/FAQ";
-
+// import Calendar from "./component/calendar";
 
 class App extends Component {
   render() {
@@ -26,6 +26,7 @@ class App extends Component {
               <Route path="/support" component={Support} />
               <Route path="/User" component={User} />
               <Route path="/faq" component={FAQ} />
+              {/* <Route path="/calendar" component={Calendar} /> */}
               {/* <Route path="/signup" component={SIGNUP} />
               <Route path="/login" component={LOGIN} /> */}
             </Switch>
